@@ -73,6 +73,9 @@ function(e){
         // Add book to list
         ui.addBookToList(book)
 
+        // Show success
+        ui.showAlert('Book successfully added', 'success')
+
         // Clear fields
         ui.clearFields()
     }
